@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test logs
+logs/
+*.log
+
+# Allure test results
+allure-results/
+allure-report/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Personal environment files (optional)
+.env
+.env.*
+
+# Ignore test result files
+*.result.json
+*.container.json
+*.attachment.txt
+.mp4
